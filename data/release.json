@@ -1,0 +1,19 @@
+{
+  "version": "2026.10.0",
+  "date": "2026-10-19",
+  "previous": "",
+  "counts": {
+    "communes": 565,
+    "communes_by_region": {
+      "BRU": 19,
+      "VLA": 285,
+      "WAL": 261
+    },
+    "postcodes": 1149,
+    "rows": 1153,
+    "sections": 4,
+    "operators": 16,
+    "notes": 14,
+    "sources": 91
+  }
+}
