@@ -1,0 +1,12 @@
+{
+  "ERRORS": {
+    "DSO": {
+      "DATA_UNAVAILABLE": "Die Daten der Netzbetreiber sind nicht geladen (Code: 2600)",
+      "RESOLVE": "Die Suche nach Postleitzahl ist fehlgeschlagen (Code: 2601)",
+      "RESOLVE_ADDRESS": "Die Suche nach Adresse ist fehlgeschlagen (Code: 2602)",
+      "OPERATORS": "Die Liste der Netzbetreiber ist nicht verfügbar (Code: 2603)",
+      "EAN_CHECK": "Die Prüfung der EAN ist fehlgeschlagen (Code: 2604)",
+      "META": "Die Angaben zu den Daten sind nicht verfügbar (Code: 2605)"
+    }
+  }
+}

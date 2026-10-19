@@ -1,0 +1,10 @@
+# The pinned belgian-dso-map release, byte for byte. Without this, core.autocrlf=true
+# (the default of Git for Windows) checks the CSV files out with CRLF and every
+# SHA256SUMS entry stops matching: the service then refuses to boot, and
+# tests/test_data_integrity.py fails.
+data/** -text
+
+# The root ATTRIBUTION.md is derived from data/ATTRIBUTION.md by scripts/sync_data.py and
+# compared byte for byte (tests/test_data_integrity.py): a CRLF checkout fails that test
+# and makes every sync report changed=true.
+/ATTRIBUTION.md -text

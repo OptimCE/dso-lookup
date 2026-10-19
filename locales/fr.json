@@ -1,0 +1,12 @@
+{
+  "ERRORS": {
+    "DSO": {
+      "DATA_UNAVAILABLE": "Les données des gestionnaires de réseau ne sont pas chargées (code : 2600)",
+      "RESOLVE": "La recherche par code postal a échoué (code : 2601)",
+      "RESOLVE_ADDRESS": "La recherche par adresse a échoué (code : 2602)",
+      "OPERATORS": "La liste des gestionnaires de réseau est indisponible (code : 2603)",
+      "EAN_CHECK": "La vérification de l'EAN a échoué (code : 2604)",
+      "META": "Les informations sur les données sont indisponibles (code : 2605)"
+    }
+  }
+}

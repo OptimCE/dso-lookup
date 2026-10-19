@@ -1,0 +1,12 @@
+{
+  "ERRORS": {
+    "DSO": {
+      "DATA_UNAVAILABLE": "De gegevens van de netbeheerders zijn niet geladen (code: 2600)",
+      "RESOLVE": "Het zoeken op postcode is mislukt (code: 2601)",
+      "RESOLVE_ADDRESS": "Het zoeken op adres is mislukt (code: 2602)",
+      "OPERATORS": "De lijst van netbeheerders is niet beschikbaar (code: 2603)",
+      "EAN_CHECK": "De controle van de EAN is mislukt (code: 2604)",
+      "META": "De informatie over de gegevens is niet beschikbaar (code: 2605)"
+    }
+  }
+}

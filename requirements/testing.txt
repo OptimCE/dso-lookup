@@ -1,0 +1,8 @@
+-r development.txt
+
+# Test runner (no pytest-docker: there is no database to start)
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==7.0.0
+# HTTP test client
+httpx==0.28.1

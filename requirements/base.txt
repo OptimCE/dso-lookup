@@ -1,0 +1,23 @@
+# Billing's pins, minus everything an internal, database-free, read-only
+# service does not use (no SQLAlchemy, asyncpg, NATS, S3, Redis, SMTP, PDF).
+# The CSV store and scripts/sync_data.py use the standard library only.
+
+# Pydantic
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# Logging
+python-json-logger==3.2.0
+
+# Telemetry: logs and metrics over OTLP/HTTP (core/tracing.py). No gRPC exporter
+# and no SQLAlchemy instrumentation: nothing here uses them.
+opentelemetry-api==1.39.1
+opentelemetry-exporter-otlp-proto-common==1.39.1
+opentelemetry-exporter-otlp-proto-http==1.39.1
+opentelemetry-instrumentation==0.60b1
+opentelemetry-instrumentation-asgi==0.60b1
+opentelemetry-instrumentation-fastapi==0.60b1
+opentelemetry-proto==1.39.1
+opentelemetry-sdk==1.39.1
+opentelemetry-semantic-conventions==0.60b1
+opentelemetry-util-http==0.60b1

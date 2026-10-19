@@ -1,0 +1,12 @@
+{
+  "ERRORS": {
+    "DSO": {
+      "DATA_UNAVAILABLE": "The network operator data is not loaded (code: 2600)",
+      "RESOLVE": "The postcode lookup failed (code: 2601)",
+      "RESOLVE_ADDRESS": "The address lookup failed (code: 2602)",
+      "OPERATORS": "The list of network operators is unavailable (code: 2603)",
+      "EAN_CHECK": "The EAN check failed (code: 2604)",
+      "META": "The data information is unavailable (code: 2605)"
+    }
+  }
+}
