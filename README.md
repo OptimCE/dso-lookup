@@ -1,8 +1,16 @@
+<p align="center">
+  <img src="docs/logo.svg" alt="OptimCE logo" width="160">
+</p>
+
 # OptimCE — DSO lookup (internal service)
 
 [![Website](https://img.shields.io/badge/Website-optimce.be-2e7d32.svg)](https://www.optimce.be/en/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Data licence](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)](ATTRIBUTION.md)
+[![en](https://img.shields.io/badge/lang-en-43a047.svg)](README.md)
+[![fr](https://img.shields.io/badge/lang-fr-lightgrey.svg)](docs/README.fr.md)
+[![de](https://img.shields.io/badge/lang-de-lightgrey.svg)](docs/README.de.md)
+[![nl](https://img.shields.io/badge/lang-nl-lightgrey.svg)](docs/README.nl.md)
 
 Answers one question for the OptimCE platform: **which distribution system operator
 (DSO, *gestionnaire de réseau de distribution*, *netbeheerder*) runs the electricity
@@ -215,7 +223,18 @@ CI: `lint.yml` (ruff, format, mypy), `test.yml` (pytest, no service container),
 - `gh release download` is the GitHub REST API (`urllib`, `add_unredirected_header`)
   plus `--from-dir`: `gh` is not installed on the developers' machines.
 
-## Licence
+## Contributing
+
+Contributions are welcome! Please read the
+[contributing guidelines](CONTRIBUTING.md) and our
+[Code of Conduct](CODE_OF_CONDUCT.md) before opening an issue or pull request.
+
+## Security
+
+To report a security vulnerability, please follow the
+[security policy](SECURITY.md) — do not open a public issue.
+
+## License
 
 The code is licensed under the [Apache License 2.0](LICENSE), which does not cover
 `data/`. The data in `data/` are a release of the public
